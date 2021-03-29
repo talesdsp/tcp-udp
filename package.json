@@ -1,0 +1,12 @@
+{
+  "name": "tcp-udp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tcp:server": "node src/udp.js",
+    "tcp:client": "node src/udp-client.js",
+    "udp:server": "node src/udp.js",
+    "udp:client": "node src/udp-client.js"
+  }
+}
